@@ -30,6 +30,7 @@ public class FaceCrop {
 
 
 
+
     }
 
     public void setFaceCrop(final ImageView imageView, Uri uri) {
