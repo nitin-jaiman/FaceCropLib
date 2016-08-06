@@ -27,6 +27,7 @@ public class FaceCrop {
         faceDetectionGoogle = new FaceDetectionGoogle(context);
 
 
+
     }
 
     public void setFaceCrop(final ImageView imageView, Uri uri) {
