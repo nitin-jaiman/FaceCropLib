@@ -31,5 +31,5 @@ How to use library
         
         
   
-  ![Alt text](https://mail.google.com/mail/u/1/?ui=2&ik=7ec7fd4d14&view=fimg&th=1565f7a63fb1b59f&attid=0.2&disp=inline&realattid=1541910738180767744-local1&safe=1&attbid=ANGjdJ9tn_KdzVbmn7dP0NbaThYgKREI-CeOqx1FjjQ-lqwSvVumoTZjznKB-lvGIfeJhYQDfRnsWcgleUsEuLyDbJbTN5Qw9Yo_BM_bo26ptGuXYSieZScvWLxt4bo&ats=1470481459869&rm=1565f7a63fb1b59f&zw&sz=w1280-h611"Centre Crop")
+  <img>https://mail.google.com/mail/u/1/?ui=2&ik=7ec7fd4d14&view=fimg&th=1565f7a63fb1b59f&attid=0.2&disp=inline&realattid=1541910738180767744-local1&safe=1&attbid=ANGjdJ9tn_KdzVbmn7dP0NbaThYgKREI-CeOqx1FjjQ-lqwSvVumoTZjznKB-lvGIfeJhYQDfRnsWcgleUsEuLyDbJbTN5Qw9Yo_BM_bo26ptGuXYSieZScvWLxt4bo&ats=1470481459869&rm=1565f7a63fb1b59f&zw&sz=w1280-h611"Centre Crop"</img>
 
