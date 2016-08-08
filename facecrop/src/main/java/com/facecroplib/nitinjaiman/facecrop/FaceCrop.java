@@ -20,6 +20,7 @@ public class FaceCrop {
     Context context;
 
     FaceDetectionGoogle faceDetectionGoogle;
+    OnBitmapReadyListner onBitmapReadyListner;
 
     public FaceCrop(Context context) {
 
@@ -32,6 +33,14 @@ public class FaceCrop {
 
 
 
+    }
+
+    public OnBitmapReadyListner getOnBitmapReadyListner() {
+        return onBitmapReadyListner;
+    }
+
+    public void setOnBitmapReadyListner(OnBitmapReadyListner onBitmapReadyListner) {
+        this.onBitmapReadyListner = onBitmapReadyListner;
     }
 
     public void setFaceCrop(final ImageView imageView, Uri uri) {
@@ -85,6 +94,8 @@ public class FaceCrop {
 
         faceDetectionGoogle.setMainBitmap(bitmap);
         Bitmap faceDetectedBitmap = faceDetectionGoogle.getFaceDetectedBitmap();
+
+       /*
         if (bitmap != null) {
 
             imageView.setImageBitmap(faceDetectedBitmap);
@@ -92,6 +103,15 @@ public class FaceCrop {
 
             imageView.setImageBitmap(bitmap);
         }
+        */
+
+        if (onBitmapReadyListner != null) {
+
+            onBitmapReadyListner.onBitmapReady(faceDetectedBitmap);
+
+
+        }
+
 
 
     }
@@ -101,6 +121,14 @@ public class FaceCrop {
 
 
         new FaceDetectionBackground(faceDetectionGoogle, bitmap, imageView).execute();
+
+    }
+
+    interface OnBitmapReadyListner {
+
+
+        public void onBitmapReady(Bitmap bitmap);
+
 
     }
 
@@ -141,9 +169,18 @@ public class FaceCrop {
 
             if (aVoid != null) {
 
-
+/*
                 Log.e("bitmap", "facedetected");
                 this.imageView.setImageBitmap(aVoid);
+                */
+
+
+                if (onBitmapReadyListner != null) {
+
+                    onBitmapReadyListner.onBitmapReady(aVoid);
+
+
+                }
 
             } else {
                 Log.e("bitmap", "null");
@@ -154,6 +191,5 @@ public class FaceCrop {
 
         }
     }
-
 
 }
