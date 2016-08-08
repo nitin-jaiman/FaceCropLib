@@ -123,7 +123,7 @@ public class FaceCrop {
 
     }
 
-    interface OnBitmapReadyListner {
+    public interface OnBitmapReadyListner {
 
 
         public void onBitmapReady(Bitmap bitmap);
