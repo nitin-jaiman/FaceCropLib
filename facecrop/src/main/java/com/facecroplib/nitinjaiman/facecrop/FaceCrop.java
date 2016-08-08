@@ -121,6 +121,7 @@ public class FaceCrop {
 
         new FaceDetectionBackground(faceDetectionGoogle, bitmap, imageView).execute();
 
+
     }
 
     public interface OnBitmapReadyListner {
