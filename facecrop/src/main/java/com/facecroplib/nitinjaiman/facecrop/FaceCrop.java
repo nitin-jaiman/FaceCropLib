@@ -92,6 +92,7 @@ public class FaceCrop {
     public void setFaceCrop(ImageView imageView, Bitmap bitmap) {
 
         faceDetectionGoogle.setMainBitmap(bitmap);
+
         Bitmap faceDetectedBitmap = faceDetectionGoogle.getFaceDetectedBitmap();
 
        /*
