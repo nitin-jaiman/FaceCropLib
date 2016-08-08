@@ -31,5 +31,4 @@ How to use library
         
         
 
-![screenshot_20160806-161858 2](https://cloud.githubusercontent.com/assets/8062921/17456490/c3091db8-5bf6-11e6-9083-209d6a0637dd.png)
-![screenshot_20160806-161905 2](https://cloud.githubusercontent.com/assets/8062921/17456489/c3088402-5bf6-11e6-88b4-38f3b341a2f6.png)
+
