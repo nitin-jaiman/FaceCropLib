@@ -17,10 +17,9 @@ import com.bumptech.glide.request.target.SimpleTarget;
  */
 public class FaceCrop {
 
+    public OnBitmapReadyListner onBitmapReadyListner;
     Context context;
-
     FaceDetectionGoogle faceDetectionGoogle;
-    OnBitmapReadyListner onBitmapReadyListner;
 
     public FaceCrop(Context context) {
 
