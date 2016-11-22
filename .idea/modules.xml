@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FaceCropLib.iml" filepath="$PROJECT_DIR$/FaceCropLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FaceCropLibnew.iml" filepath="$PROJECT_DIR$/FaceCropLibnew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facecrop/facecrop.iml" filepath="$PROJECT_DIR$/facecrop/facecrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/facecrop/facecrop.iml" filepath="$PROJECT_DIR$/facecrop/facecrop.iml" />
     </modules>
   </component>

@@ -46,7 +46,7 @@ public class FaceCrop {
 
 
         Glide.with(context).load(uri).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL)
-                .fitCenter()
+
                 .into(new SimpleTarget<Bitmap>() {
                     @Override
                     public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
@@ -72,7 +72,6 @@ public class FaceCrop {
 
 
         Glide.with(context).load(uri).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL)
-                .fitCenter()
                 .into(new SimpleTarget<Bitmap>() {
                     @Override
                     public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
@@ -186,6 +185,7 @@ public class FaceCrop {
             } else {
                 Log.e("bitmap", "null");
                 this.imageView.setImageBitmap(bitmap);
+
 
             }
 
